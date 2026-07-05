@@ -13,6 +13,13 @@ Register/Login/Page/GcashProof/*
 Register/Login/Page/GcashQR/*
 !Register/Login/Page/GcashQR/.gitkeep
 
+# User uploaded images (ignore common upload formats, keep PNGs for UI)
+Register/Login/Page/image/*.jpg
+Register/Login/Page/image/*.jpeg
+Register/Login/Page/image/*.webp
+Register/Login/Page/image/*.gif
+!Register/Login/Page/image/default.jpg
+
 # OS generated files
 .DS_Store
 .DS_Store?
