@@ -640,7 +640,7 @@ ALTER TABLE `artists`
   MODIFY `artist_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=26;
 
 --
--- AUTO_INCREMENT for table `bids`
+-- AUTO_INCREMENT for table `bid`
 --
 ALTER TABLE `bids`
   MODIFY `bid_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=45;

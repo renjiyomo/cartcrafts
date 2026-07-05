@@ -1,0 +1,11 @@
+# Database dumps
+*.sql
+cart_craft (1).sql
+
+# User uploads (Ignore everything inside but keep the directory)
+Register/uploads/*
+!Register/uploads/.gitkeep
+
+# Database configuration files
+Register/cartcraft_db.php
+Register/Login/cartcraft_db.php
