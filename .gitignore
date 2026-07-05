@@ -1,0 +1,32 @@
+# Database files
+*.sql
+*.sqlite
+
+# Database connection credentials
+cartcraft_db.php
+
+# Uploaded files
+Register/uploads/*
+!Register/uploads/.gitkeep
+Register/Login/Page/GcashProof/*
+!Register/Login/Page/GcashProof/.gitkeep
+Register/Login/Page/GcashQR/*
+!Register/Login/Page/GcashQR/.gitkeep
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
